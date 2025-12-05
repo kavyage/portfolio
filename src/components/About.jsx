@@ -9,10 +9,9 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello! I'm Kavya, a passionate web developer and AI enthusiast with a strong focus on the <strong>MERN Stack</strong>. 
-          With a background in IT and hands-on experience in AI, Data Science, and full-stack development, I love turning ideas into 
-          clean, functional, and visually engaging software solutions. Whether it's building e-commerce platforms or predictive models, 
-          I strive to create tech that makes a real impact.
+          Hands on experience in devising all artifacts of testing in multi platform (web/app/device) with multi domain 
+knowledge (ecommerce/retail/healthcare/SaaS/eLearning/embedded/IOT/EDI) and team handling with sound knowledge 
+of SDET, QA, CI/CD/CT and Testing procedures in IT industry 
         </p>
 
 
@@ -21,11 +20,11 @@ function About() {
           Education & Training
         </h1>
         <span>
-          M.C.A (AI & Data Science), Vivekananda Global University, Jaipur – 2024 <br />
-          B.Sc (Physics), L.N.M.U, Darbhanga – 2021 <br />
-          Data Science Masters – Physics Wallah <br />
-          Machine Learning with Python – Coursera <br />
-          Business Intelligence & Visual Analytics – Coursera
+          Post Graduation in MCA from JNTUK in 2015  <br />
+          Project Title: Fingerprint Liveness Detections based on Quality Measures <br />
+          Tools | DB:    MATLab R2014a | MySQL 5.5 <br /><br />
+          
+          TypeWriter Higher in English
         </span>
 
 
