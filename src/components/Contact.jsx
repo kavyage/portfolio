@@ -107,11 +107,10 @@ function Contact() {
       </p>
 
       <div className="flex flex-col items-center justify-center">
-        <div className="bg-slate-100 w-full max-w-md px-8 py-6 rounded-xl shadow-md">
+        <div className="bg-slate-100 px-8 py-6 rounded-xl shadow-md inline-block">
           <h2 className="text-xl font-semibold mb-4 text-center">Contact Info</h2>
 
-          {/* Container for email and phone */}
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+          <div className="flex items-center gap-8 whitespace-nowrap">
             {/* Email */}
             <div className="flex items-center gap-2">
               <MdEmail className="text-green-600 text-2xl" />
