@@ -34,13 +34,13 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-Hello!, I’m G E Kavya — an SDET who blends logic with creativity.
-I build reliable, high-quality software through thoughtful testing, smart automation, and streamlined processes. With experience across UI & API testing, CI/CD/CT pipelines, and performance validation, I love turning complexity into clarity and ensuring every release is stable and user-ready.
+Hello!, I’m G E Kavya — an SDET who blends logic with creativity. <br/>
+I build reliable, high-quality software through thoughtful testing, smart automation, and streamlined processes. With experience across UI & API testing, CI/CD/CT pipelines, and performance validation, I love turning complexity into clarity and ensuring every release is stable and user-ready. <br /><br />
 
-Outside the world of code, I’m a solo backpacker, a typewriter lover, and a writer who enjoys capturing stories from the road. I travel with purpose, often volunteering, teaching, or simply connecting with people who shape new perspectives.
+Outside the world of code, I’m a solo backpacker, a typewriter lover, and a writer who enjoys capturing stories from the road. I travel with purpose, often volunteering, teaching, or simply connecting with people who shape new perspectives. <br /><br />
 
-My work and journeys share one belief:
-Observe deeply. Solve thoughtfully. Improve continuously.            </p>
+My work and journeys share one belief: Observe deeply. Solve thoughtfully. Improve continuously.            
+            </p>
 
             
             <br />
