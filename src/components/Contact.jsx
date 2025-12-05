@@ -93,9 +93,8 @@
 // export default Contact;
 
 
-
-
 import React from "react";
+import { MdEmail, MdPhone } from "react-icons/md";
 
 function Contact() {
   return (
@@ -103,32 +102,35 @@ function Contact() {
       name="Contact"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
-      <h1 className="text-3xl font-bold mb-4">Let's Connect</h1>
+      <h1 className="text-3xl font-bold mb-2">Let's Connect</h1>
       <p className="text-gray-700 mb-6">
-        Feel free to reach out to me anytime through email or phone.
+        Have a question, project idea, or just want to say hi? You can reach me via email or phone.
       </p>
 
-      <div className="bg-slate-100 w-full max-w-md px-8 py-6 rounded-xl shadow-md">
-        <h2 className="text-xl font-semibold mb-4 text-center">Contact Details</h2>
+      <div className="flex flex-col items-center justify-center">
+        <div className="bg-slate-100 w-full max-w-md px-8 py-6 rounded-xl shadow-md">
+          <h2 className="text-xl font-semibold mb-4 text-center">Contact Info</h2>
 
-        <div className="mb-4">
-          <p className="text-gray-700 font-medium">📧 Email</p>
-          <a
-            href="mailto:youremail@example.com"
-            className="text-green-700 underline break-all"
-          >
-            youremail@example.com
-          </a>
-        </div>
+          <div className="mb-4 flex items-center">
+            <MdEmail className="text-green-600 mr-3 text-2xl" />
+            <p className="text-gray-700">
+              <a
+                href="mailto:your.email@example.com"
+                className="hover:underline"
+              >
+                your.email@example.com
+              </a>
+            </p>
+          </div>
 
-        <div className="mb-2">
-          <p className="text-gray-700 font-medium">📞 Phone</p>
-          <a
-            href="tel:+1234567890"
-            className="text-green-700 underline"
-          >
-            +1 234 567 890
-          </a>
+          <div className="mb-4 flex items-center">
+            <MdPhone className="text-green-600 mr-3 text-2xl" />
+            <p className="text-gray-700">
+              <a href="tel:+1234567890" className="hover:underline">
+                +1 (234) 567-890
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
