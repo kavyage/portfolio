@@ -111,26 +111,26 @@ function Contact() {
         <div className="bg-slate-100 w-full max-w-md px-8 py-6 rounded-xl shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-center">Contact Info</h2>
 
-          <div className="mb-4 flex items-center">
-            <MdEmail className="text-green-600 mr-3 text-2xl" />
-            <p className="text-gray-700">
+          <div className="flex justify-between items-center">
+            {/* Email */}
+            <div className="flex items-center">
+              <MdEmail className="text-green-600 mr-2 text-2xl" />
               <a
                 href="mailto:your.email@example.com"
-                className="hover:underline"
+                className="text-gray-700 hover:underline"
               >
                 your.email@example.com
               </a>
-            </p>
-         
+            </div>
 
-        
-            <MdPhone className="text-green-600 mr-3 text-2xl" />
-            <p className="text-gray-700">
-              <a href="tel:+1234567890" className="hover:underline">
+            {/* Phone */}
+            <div className="flex items-center">
+              <MdPhone className="text-green-600 mr-2 text-2xl" />
+              <a href="tel:+1234567890" className="text-gray-700 hover:underline">
                 +1 (234) 567-890
               </a>
-            </p>
-          
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -138,3 +138,4 @@ function Contact() {
 }
 
 export default Contact;
+
