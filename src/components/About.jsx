@@ -13,7 +13,7 @@ function About() {
         </p>
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
-          Education & Training
+          Academic
         </h1>
         <span>
           <strong>Post Graduation in MCA from JNTUK in 2015</strong>  <br />
@@ -26,7 +26,7 @@ function About() {
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
-          Skills & Expertise
+          Tech Stack
         </h1>
         <span>
           <strong>Defect & Project Management:</strong> JIRA, Rally, Confluence, ServiceNow, SharePoint, Bugzilla, Internal Ticketing Tools <br />
@@ -51,33 +51,48 @@ Embu (Test Account/Page Events), Subs (Test Account Subscriptions & Whitelisting
 
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Professional Experience
-        </h1>
-        <span>
-          <strong>AI & Data Science Intern</strong> – YBI Foundation (Remote), Mar–Aug 2024 <br />
-          Worked on machine learning, deep learning, and NLP projects using Python, TensorFlow, and scikit-learn. <br /><br />
+       <h1 className="text-green-600 font-semibold text-xl">
+  WORK HISTORY
+</h1>
 
-          <strong>AI Intern</strong> – Pantech Solutions (Remote), Mar–Aug 2024 <br />
-          Built a chatbot using Dialogflow for a coffee shop assistant. Developed face detection and recognition models using OpenCV. <br /><br />
+<span>
 
-          <strong>Data Analytics Intern</strong> – Accenture (Forage Simulation) <br />
-          Cleaned and analyzed datasets to uncover insights. Delivered presentations and dashboards for strategic decision-making.
-        </span>
+  <strong>Lead SDET</strong> – Edifecs, India (Remote) | 2023 – Present <br />
+  Part of the Platform Core / Product & Engineering Team, contributing to the Smart Trading–OnPrem project. <br />
+  <em>Project: Smart Trading–OnPrem</em> – A large-scale healthcare data processing system handling ~700 TB/year and 
+  0.6 Gbit/sec (83,334 messages/sec). Focused on testing, quality engineering, and ensuring system reliability. <br /><br />
 
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">Projects</h1>
-        <span>
-          <strong>VGU Manali Trip Registration Form</strong> – HTML, CSS, JS, PHP, MySQL <br />
-          Designed a web app to streamline student trip registrations. <br /><br />
+  <strong>Specialist</strong> – Tata Elxsi, Bangalore (Hybrid) | 2022 – 2023 <br />
+  Worked on Media Communications – OTT, Broadcast, and Healthcare products. <br />
+  <em>Project: GE – ACM (Web)</em> – Automation and functional/UI testing using Selenium, CucumberBDD, SerenityBDD. 
+  Framework development with Java and ALM API integration. <br /><br />
 
-          <strong>E-Commerce Shop</strong> – HTML, CSS, JS, Bootstrap <br />
-          Built a responsive shopping platform with dynamic cart and product browsing. <br /><br />
+  <strong>Senior Engineer</strong> – L&T Technology Services, Mysore/Bangalore (WFH) | 2021 – 2022 <br />
+  Worked in Embedded V&V for ICP & Medical, Digital Healthcare & Communication Solutions. <br />
+  <em>Project: Siemens & Philips (Device)</em> – Functionality/UI testing, complaints review, protocol templates. <br />
+  <em>Project: Alcon (Web)</em> – REST API collections, UI & functional testing, deployment to multiple environments, 
+  release notes, sprint stories, frontend & backend testing. <br /><br />
 
-          <strong>House Price Prediction</strong> – Python, Flask, ML <br />
-          Created a model to predict Bangalore house prices using real estate data.
-        </span>
+  <strong>Senior Associate</strong> – Amazon Development Center, Chennai (Hybrid) | 2016 – 2021 <br />
+  Progressed from Contract Associate → Permanent Associate → Senior Associate. <br />
+
+  <em>Project: Annotations – Echo Look</em> – Data analytics & validation for AI/ML-driven insights. <br />
+
+  <em>Project: Amazon Prime (Web/App/Device)</em> – Web, app, device, cross-browser, L10N/i18n, backend, frontend, 
+  SSO, API, functionality & non-functional testing, regressions, launch testing, simulator/emulator testing, and 
+  end-to-end validation. <br />
+
+  <em>Project: Amazon WorkMail & WorkDocs (Desktop Apps)</em> – Functionality, UI, Sync, L10N, and adhoc testing. <br />
+
+  <em>Project: Amazon Kindle, Fire Tablet & 3P Apps/Devices</em> – Retail/demo functional testing, OTA, connectivity, 
+  logs, thermal, stress, load, performance, accessibility, ADB/Linux commands, kiosk modes, integration & E2E testing. <br />
+
+  <em>Project: Amazon Echo Series & Smart Home (IoT)</em> – AI response validation, functional & non-functional testing, 
+  sync, compatibility, analytics, voice/UX testing, JSON configs, connectivity, OTA, logs, ADB/Linux commands, 
+  accessibility, e2e & regression testing. <br /><br />
+
+</span>
+
         <br /><br />
 
         <h1 className="text-green-600 font-semibold text-xl">Achievements & Activities</h1>
