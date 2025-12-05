@@ -118,7 +118,7 @@ function Contact() {
                 href="mailto:your.email@example.com"
                 className="text-gray-700 hover:underline"
               >
-                your.email@example.com
+                kavyaitprofessional@gmail.com
               </a>
             </div>
 
@@ -126,7 +126,7 @@ function Contact() {
             <div className="flex items-center gap-2">
               <MdPhone className="text-green-600 text-2xl" />
               <a href="tel:+1234567890" className="text-gray-700 hover:underline">
-                +1 (234) 567-890
+                +91 8899501208
               </a>
             </div>
           </div>
