@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import PortFolio from "./components/PortFolio";
-import Experiance from "./components/Experiance";
+import Experiance from "./components/TechStack";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
