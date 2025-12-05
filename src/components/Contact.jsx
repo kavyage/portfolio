@@ -107,10 +107,10 @@ function Contact() {
       </p>
 
       <div className="flex flex-col items-center justify-center">
-        <div className="bg-slate-100 px-8 py-6 rounded-xl shadow-md inline-block">
+        <div className="bg-slate-100 px-10 py-6 rounded-xl shadow-md w-full max-w-lg md:max-w-xl">
           <h2 className="text-xl font-semibold mb-4 text-center">Contact Info</h2>
 
-          <div className="flex items-center gap-8 whitespace-nowrap">
+          <div className="flex items-center justify-between gap-8 whitespace-nowrap">
             {/* Email */}
             <div className="flex items-center gap-2">
               <MdEmail className="text-green-600 text-2xl" />
@@ -137,5 +137,3 @@ function Contact() {
 }
 
 export default Contact;
-
-
