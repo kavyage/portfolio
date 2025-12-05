@@ -34,6 +34,9 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
+
+Hi, I'm G E Kavya — a Software Development Engineer in Test by profession, a certified typewriter enthusiast, a writer by hobby, and an educator who loves sharing knowledge. I also enjoy practicing digital art tools and blending creativity with technology.
+
 As an SDET, passionate about delivering reliable, high-quality software through smart testing and efficient automation. I work with tools like Selenium, Playwright and I enjoy building robust test frameworks that make development faster and stronger. With experience in UI, API testing, CI/CD/CT pipelines, and performance validation, I focus on preventing issues before they happen and ensuring every release is stable and user-ready. Whether it's designing automated suites or digging into a tricky defect, I bring patience, precision, and a problem-solving mindset to every project. Always learning, always optimizing and always committed to quality.
             </p>
 
