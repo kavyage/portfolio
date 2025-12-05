@@ -9,22 +9,18 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hands on experience in devising all artifacts of testing in multi platform (web/app/device) with multi domain 
-knowledge (ecommerce/retail/healthcare/SaaS/eLearning/embedded/IOT/EDI) and team handling with sound knowledge 
-of SDET, QA, CI/CD/CT and Testing procedures in IT industry 
+          Hands on experience in devising all artifacts of testing in multi platform (web/app/device) with multi domain knowledge (ecommerce/retail/healthcare/SaaS/eLearning/embedded/IOT/EDI) and team handling with sound knowledge of SDET, QA, CI/CD/CT and Testing procedures in IT industry 
         </p>
-
-
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
           Education & Training
         </h1>
         <span>
-          Post Graduation in MCA from JNTUK in 2015  <br />
-          Project Title: Fingerprint Liveness Detections based on Quality Measures <br />
-          Tools | DB:    MATLab R2014a | MySQL 5.5 <br /><br />
+          # Post Graduation in MCA from JNTUK in 2015  <br />
+            Project Title: Fingerprint Liveness Detections based on Quality Measures <br />
+            Tools | DB:    MATLab R2014a | MySQL 5.5 <br /><br />
           
-          TypeWriter Higher in English
+          # TypeWriter Higher in English
         </span>
 
 
