@@ -2,10 +2,10 @@ import React from "react";
 
 import pic from "../../public/photo5.jpg";
 
-import { FaSquareFacebook } from "react-icons/fa6";
+import { FaBlogger } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
+import { FaMedium } from "react-icons/io";
+import { FaGithub } from "react-icons/fa6";
 
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -54,18 +54,18 @@ function Home() {
                   </li>
                   <li>
                     <a href="https://github.com/kavyage/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
+                      <FaGithub className="text-2xl cursor-pointer" />
                     </a>
                   </li>
 
                   <li>
                     <a href="https://medium.com/@krazylazykavy" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
+                      <FaMedium className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
                     <a href="https://krazylazykavy.blogspot.com/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
+                      <FaBlogger className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
