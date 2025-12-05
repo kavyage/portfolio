@@ -92,7 +92,6 @@
 
 // export default Contact;
 
-
 import React from "react";
 import { MdEmail, MdPhone } from "react-icons/md";
 
@@ -111,10 +110,11 @@ function Contact() {
         <div className="bg-slate-100 w-full max-w-md px-8 py-6 rounded-xl shadow-md">
           <h2 className="text-xl font-semibold mb-4 text-center">Contact Info</h2>
 
-          <div className="flex justify-between items-center">
+          {/* Container for email and phone */}
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             {/* Email */}
-            <div className="flex items-center">
-              <MdEmail className="text-green-600 mr-2 text-2xl" />
+            <div className="flex items-center gap-2">
+              <MdEmail className="text-green-600 text-2xl" />
               <a
                 href="mailto:your.email@example.com"
                 className="text-gray-700 hover:underline"
@@ -124,8 +124,8 @@ function Contact() {
             </div>
 
             {/* Phone */}
-            <div className="flex items-center">
-              <MdPhone className="text-green-600 mr-2 text-2xl" />
+            <div className="flex items-center gap-2">
+              <MdPhone className="text-green-600 text-2xl" />
               <a href="tel:+1234567890" className="text-gray-700 hover:underline">
                 +1 (234) 567-890
               </a>
@@ -138,4 +138,5 @@ function Contact() {
 }
 
 export default Contact;
+
 
