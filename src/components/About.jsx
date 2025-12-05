@@ -16,11 +16,11 @@ function About() {
           Education & Training
         </h1>
         <span>
-          # Post Graduation in MCA from JNTUK in 2015  <br />
+          <strong>Post Graduation in MCA from JNTUK in 2015</strong>  <br />
             Project Title: Fingerprint Liveness Detections based on Quality Measures <br />
             Tools | DB:    MATLab R2014a | MySQL 5.5 <br /><br />
           
-          # TypeWriter Higher in English
+         <strong>TypeWriter </strong> Higher in English
         </span>
 
 
