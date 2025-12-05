@@ -34,7 +34,7 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Hi, I'm G E Kavya — a full-stack developer with a love for building clean, user-friendly websites. I work with React, Django, WordPress, and more, and I enjoy solving real-world problems through tech. I also have a strong background in digital marketing, so I know how to make things not just work, but stand out. Whether it's designing an e-commerce site or fixing a tricky bug, I bring patience, creativity, and a hands-on approach to everything I do. Always learning, always building — and always staying true to who I am.
+As an SDET, passionate about delivering reliable, high-quality software through smart testing and efficient automation. I work with tools like Selenium, Playwright and I enjoy building robust test frameworks that make development faster and stronger. With experience in UI, API testing, CI/CD/CT pipelines, and performance validation, I focus on preventing issues before they happen and ensuring every release is stable and user-ready. Whether it's designing automated suites or digging into a tricky defect, I bring patience, precision, and a problem-solving mindset to every project. Always learning, always optimizing and always committed to quality.
             </p>
 
             
