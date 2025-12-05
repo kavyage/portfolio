@@ -6,7 +6,7 @@
 // import oracle from "../../public/oracle.png";
 // import spring from "../../public/spring.png";
 // import springBoot from "../../public/springBoot.jpg";
-// function Experiance() {
+// function TechStack() {
 //   const cardItem = [
 //     {
 //       id: 1,
@@ -46,13 +46,13 @@
 //   ];
 //   return (
 //     <div
-//       name="Experiance"
+//       name="TechStack"
 //       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
 //     >
 //       <div>
-//         <h1 className="text-3xl font-bold mb-5">Experiance</h1>
+//         <h1 className="text-3xl font-bold mb-5">TechStack</h1>
 //         <p className="  ">
-//           I've more than 2 years of experiance in below technologies.
+//           I've more than 2 years of TechStack in below technologies.
 //         </p>
 //         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
 //           {cardItem.map(({ id, logo, name }) => (
@@ -72,7 +72,7 @@
 //   );
 // }
 
-// export default Experiance;
+// export default TechStack;
 
 
 
@@ -96,52 +96,31 @@ const cardItem = [
     logo: "/javascript.png",
     name: "JavaScript",
   },
+ 
   {
     id: 4,
-    logo: "/reactjs.png",
-    name: "React JS",
-  },
-  {
-    id: 5,
     logo: "/python.webp",
     name: "Python",
   },
+  
+  
   {
-    id: 6,
-    logo: "/django.png",
-    name: "Django",
-  },
-  {
-    id: 7,
-    logo: "/flask.png",
-    name: "Flask",
-  },
-  {
-    id: 8,
+    id: 5,
     logo: "/java.png",
     name: "Java",
   },
   {
-    id: 9,
-    logo: "/oracle.png",
+    id: 6,
+    logo: "/selemium.png",
     name: "Oracle",
   },
-  {
-    id: 10,
-    logo: "/spring.png",
-    name: "Spring",
-  },
-  {
-    id: 11,
-    logo: "/springBoot.jpg",
-    name: "Spring Boot",
-  },
+  
 ];
 
-function Experiance() {
+function TechStack() {
   return (
     <div
-      name="Experiance"
+      name="TechStack"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
@@ -170,4 +149,4 @@ function Experiance() {
   );
 }
 
-export default Experiance;
+export default TechStack;
