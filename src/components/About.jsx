@@ -18,8 +18,7 @@ function About() {
         <span>
           <strong>Post Graduation in MCA from JNTUK in 2015</strong>  <br />
             Project Title: Fingerprint Liveness Detections based on Quality Measures <br />
-            Tools | DB:    MATLab R2014a | MySQL 5.5 <br /><br />
-          
+            Tools | DB:    MATLab R2014a | MySQL 5.5 <br />
          <strong>TypeWriter </strong> Higher in English
         </span>
 
@@ -30,10 +29,23 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          <strong>Languages:</strong> Python, Java, HTML, CSS, JavaScript <br />
-          <strong>Frameworks & Libraries:</strong> React JS, Django, Flask, Bootstrap, Pandas, NumPy, OpenCV, Matplotlib, Seaborn <br />
-          <strong>Tools:</strong> VS Code, Git, GitHub, Power BI, Excel, Jupyter Notebooks, PyCharm, Google Colab <br />
-          <strong>Other:</strong> WordPress, Data Structures & Algorithms, UI/UX Design, SEO
+          <strong>Defect & Project Management:</strong> JIRA, Rally, Confluence, ServiceNow, SharePoint, Bugzilla, Internal Ticketing Tools <br />
+<strong>Test Management:</strong> TestRail, ALM, Excel <br />
+<strong>CI/CD & Cloud:</strong> Jenkins, Nexus, AWS (S3), Kibana, CloudFront (CF), Kubernetes <br />
+<strong>Programming, Automation & IDEs:</strong> Java Selenium, Groovy Scripts, Eclipse, IntelliJ IDEA (IJ) <br />
+<strong>Version Control:</strong> Bitbucket, Git, SVN, Maven <br />
+<strong>Frameworks:</strong> Hybrid Frameworks, Cucumber BDD, Serenity BDD, JUnit, TestNG <br />
+<strong>API Testing:</strong> Postman, RestAssured, BDD API Frameworks, Internal Org API Tools <br />
+<strong>Database Tools:</strong> Amazon Redshift, Hubble, MSSQL, PGAdmin, SQL Queries <br />
+<strong>OS, Command Lines & FTP:</strong> Windows, Linux, Unix, PuTTY, WinSCP, WinMerge, NFS/SMB <br />
+<strong>Performance Tools:</strong> JMeter <br />
+<strong>Workspaces:</strong> VRA, Citrix, RDP <br />
+<strong>Communication Channels:</strong> MS Teams, Amazon Chime, Slack <br />
+<strong>Amazon Internal Tools:</strong> Build Management Tools, Device Management Tools, Content Management Tools,
+TestClaimCodeService Explorer, SIM TT Tool & Kanban Board, Backend API Tools, CS Tools, KBITS (Builds),  
+KOTA (OTA), KDCM (Content Management/Publish), KDCS (Content-Specific/Publish), Kamino (Test Account Generation),  
+Embu (Test Account/Page Events), Subs (Test Account Subscriptions & Whitelisting), Weblabs (Test Page Integrations)
+
         </span>
 
 
