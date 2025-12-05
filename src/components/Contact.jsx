@@ -101,20 +101,21 @@ function Contact() {
       name="Contact"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
-      <h1 className="text-3xl font-bold mb-2">Let's Connect</h1>
-      <p className="text-gray-700 mb-6">
+      <h1 className="text-3xl font-bold mb-2 text-center">Let's Connect</h1>
+      <p className="text-gray-700 mb-6 text-center">
         Have a question, project idea, or just want to say hi? You can reach me via email or phone.
       </p>
 
+      {/* Centered compact card */}
       <div className="flex justify-center">
-        <div className="bg-slate-100 px-8 py-6 rounded-xl shadow-md w-full max-w-xl">
-          {/* Centered Title */}
-          <h2 className="text-xl font-semibold mb-6 text-center">Contact Info</h2>
+        <div className="bg-slate-100 px-10 py-6 rounded-xl shadow-md w-full max-w-lg">
+          {/* Centered title */}
+          <h2 className="text-xl font-semibold mb-4 text-center">Contact Info</h2>
 
-          {/* Email & Phone Row */}
+          {/* Row with email left, phone right */}
           <div className="flex justify-between items-center">
             {/* Email */}
-            <div className="flex items-right gap-2">
+            <div className="flex items-center gap-2">
               <MdEmail className="text-green-600 text-2xl" />
               <a
                 href="mailto:kavyaitprofessional@gmail.com"
@@ -125,7 +126,7 @@ function Contact() {
             </div>
 
             {/* Phone */}
-            <div className="flex items-left gap-2">
+            <div className="flex items-center gap-2">
               <MdPhone className="text-green-600 text-2xl" />
               <a href="tel:+918899501208" className="text-gray-700 hover:underline">
                 +91 8899501208
