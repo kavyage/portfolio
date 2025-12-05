@@ -34,11 +34,13 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
+Hello!, I’m G E Kavya — an SDET who blends logic with creativity.
+I build reliable, high-quality software through thoughtful testing, smart automation, and streamlined processes. With experience across UI & API testing, CI/CD/CT pipelines, and performance validation, I love turning complexity into clarity and ensuring every release is stable and user-ready.
 
-Hi, I'm G E Kavya — a Software Development Engineer in Test by profession, a certified typewriter enthusiast, a writer by hobby, and an educator who loves sharing knowledge. I also enjoy practicing design tools and blending creativity with technology.
+Outside the world of code, I’m a solo backpacker, a typewriter lover, and a writer who enjoys capturing stories from the road. I travel with purpose, often volunteering, teaching, or simply connecting with people who shape new perspectives.
 
-As an SDET, passionate about delivering reliable, high-quality software through smart testing and efficient automation. I work with tools like Selenium, Playwright and I enjoy building robust test frameworks that make development faster and stronger. With experience in UI, API testing, CI/CD/CT pipelines, and performance validation, I focus on preventing issues before they happen and ensuring every release is stable and user-ready. Whether it's designing automated suites or digging into a tricky defect, I bring patience, precision, and a problem-solving mindset to every project. Always learning, always optimizing and always committed to quality.
-            </p>
+My work and journeys share one belief:
+Observe deeply. Solve thoughtfully. Improve continuously.            </p>
 
             
             <br />
