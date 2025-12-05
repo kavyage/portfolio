@@ -95,90 +95,41 @@
 
 
 
-import axios from "axios";
 import React from "react";
-import { useForm } from "react-hook-form";
-import toast from "react-hot-toast";
 
 function Contact() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
-
-  const onSubmit = async (data) => {
-    const userInfo = {
-      name: data.name,
-      email: data.email,
-      message: data.message,
-    };
-    try {
-      await axios.post("https://getform.io/f/aolzyrgb", userInfo);
-      toast.success("Thanks! Your message has been sent.");
-    } catch (error) {
-      console.log(error);
-      toast.error("Oops! Something went wrong.");
-    }
-  };
-
   return (
     <div
       name="Contact"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
-      <h1 className="text-3xl font-bold mb-2">Let's Connect</h1>
+      <h1 className="text-3xl font-bold mb-4">Let's Connect</h1>
       <p className="text-gray-700 mb-6">
-        Have a question, project idea, or just want to say hi? Fill out the form below and I’ll get back to you soon.
+        Feel free to reach out to me anytime through email or phone.
       </p>
 
-      <div className="flex flex-col items-center justify-center">
-        <form
-          onSubmit={handleSubmit(onSubmit)}
-          className="bg-slate-100 w-full max-w-md px-8 py-6 rounded-xl shadow-md"
-        >
-          <h2 className="text-xl font-semibold mb-4 text-center">Send a Message</h2>
+      <div className="bg-slate-100 w-full max-w-md px-8 py-6 rounded-xl shadow-md">
+        <h2 className="text-xl font-semibold mb-4 text-center">Contact Details</h2>
 
-          <div className="mb-4">
-            <label className="block text-gray-700 mb-1">Full Name</label>
-            <input
-              {...register("name", { required: true })}
-              className="w-full shadow rounded-lg border py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-400"
-              type="text"
-              placeholder="Your full name"
-            />
-            {errors.name && <span className="text-red-500 text-sm">Name is required</span>}
-          </div>
-
-          <div className="mb-4">
-            <label className="block text-gray-700 mb-1">Email Address</label>
-            <input
-              {...register("email", { required: true })}
-              className="w-full shadow rounded-lg border py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-400"
-              type="email"
-              placeholder="you@example.com"
-            />
-            {errors.email && <span className="text-red-500 text-sm">Email is required</span>}
-          </div>
-
-          <div className="mb-4">
-            <label className="block text-gray-700 mb-1">Message</label>
-            <textarea
-              {...register("message", { required: true })}
-              className="w-full shadow rounded-lg border py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-green-400"
-              rows="4"
-              placeholder="Write your message here..."
-            />
-            {errors.message && <span className="text-red-500 text-sm">Message is required</span>}
-          </div>
-
-          <button
-            type="submit"
-            className="w-full bg-green-600 text-white font-semibold py-2 rounded-lg hover:bg-green-700 transition duration-300"
+        <div className="mb-4">
+          <p className="text-gray-700 font-medium">📧 Email</p>
+          <a
+            href="mailto:youremail@example.com"
+            className="text-green-700 underline break-all"
           >
-            Send Message
-          </button>
-        </form>
+            youremail@example.com
+          </a>
+        </div>
+
+        <div className="mb-2">
+          <p className="text-gray-700 font-medium">📞 Phone</p>
+          <a
+            href="tel:+1234567890"
+            className="text-green-700 underline"
+          >
+            +1 234 567 890
+          </a>
+        </div>
       </div>
     </div>
   );
