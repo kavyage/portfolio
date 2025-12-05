@@ -2,15 +2,12 @@ import React from "react";
 
 import pic from "../../public/photo5.jpg";
 
-import { FaBlogger } from "react-icons/fa6";
+import { FaBlogger } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaMedium } from "react-icons/io";
-import { FaGithub } from "react-icons/fa6";
+import { FaMedium } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
-import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa6";
+
 
 import { ReactTyped } from "react-typed";
 
