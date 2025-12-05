@@ -121,16 +121,16 @@ function Contact() {
                 your.email@example.com
               </a>
             </p>
-          </div>
+         
 
-          <div className="mb-4 flex items-center">
+        
             <MdPhone className="text-green-600 mr-3 text-2xl" />
             <p className="text-gray-700">
               <a href="tel:+1234567890" className="hover:underline">
                 +1 (234) 567-890
               </a>
             </p>
-          </div>
+          
         </div>
       </div>
     </div>
