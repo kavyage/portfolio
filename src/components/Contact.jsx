@@ -106,16 +106,18 @@ function Contact() {
         Have a question, project idea, or just want to say hi? You can reach me via email or phone.
       </p>
 
-      <div className="flex flex-col items-center justify-center">
-        <div className="bg-slate-100 px-10 py-6 rounded-xl shadow-md w-full max-w-lg md:max-w-xl">
-          <h2 className="text-xl font-semibold mb-4 text-center">Contact Info</h2>
+      <div className="flex justify-center">
+        <div className="bg-slate-100 px-8 py-6 rounded-xl shadow-md w-full max-w-xl">
+          {/* Centered Title */}
+          <h2 className="text-xl font-semibold mb-6 text-center">Contact Info</h2>
 
-          <div className="flex items-center justify-between gap-8 whitespace-nowrap">
+          {/* Email & Phone Row */}
+          <div className="flex justify-between items-center">
             {/* Email */}
             <div className="flex items-center gap-2">
               <MdEmail className="text-green-600 text-2xl" />
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:kavyaitprofessional@gmail.com"
                 className="text-gray-700 hover:underline"
               >
                 kavyaitprofessional@gmail.com
@@ -125,7 +127,7 @@ function Contact() {
             {/* Phone */}
             <div className="flex items-center gap-2">
               <MdPhone className="text-green-600 text-2xl" />
-              <a href="tel:+1234567890" className="text-gray-700 hover:underline">
+              <a href="tel:+918899501208" className="text-gray-700 hover:underline">
                 +91 8899501208
               </a>
             </div>
