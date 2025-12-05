@@ -124,9 +124,9 @@ function TechStack() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">Experience</h1>
+        <h1 className="text-3xl font-bold mb-5">TechStack</h1>
         <p className="text-gray-700 text-base">
-          I have over 2 years of hands-on experience working with these technologies across web development, data science, and teaching.
+          I have over 2 years of hands-on TechStack working with these technologies across web development, data science, and teaching.
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 my-8">
