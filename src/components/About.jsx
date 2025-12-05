@@ -58,9 +58,11 @@ Embu (Test Account/Page Events), Subs (Test Account Subscriptions & Whitelisting
 <span>
 
   <strong>Lead SDET</strong> – Edifecs, India (Remote) | 2023 – Present <br />
-  Part of the Platform Core / Product & Engineering Team, contributing to the Smart Trading–OnPrem project. <br />
-  <em>Project: Smart Trading–OnPrem</em> – A large-scale healthcare data processing system handling ~700 TB/year and 
-  0.6 Gbit/sec (83,334 messages/sec). Focused on testing, quality engineering, and ensuring system reliability. <br /><br />
+  Part of the  Smart Trading-OnPrem Project in Platform Core / Product & Engineering Team <br />
+  <em>Project: Smart Trading–OnPrem</em> <br />
+ The project that makes customers able to track the progress of healthcare document processing. It is the most challenging 
+project in my experience because of requirements to store about 700 TB/year of business data and process 0.6 Gbit/sec 
+or 83334 messages/sec but to stay easy to administrate.  <br /><br />
 
   <strong>Specialist</strong> – Tata Elxsi, Bangalore (Hybrid) | 2022 – 2023 <br />
   Worked on Media Communications – OTT, Broadcast, and Healthcare products. <br />
