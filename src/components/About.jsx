@@ -26,7 +26,7 @@ function About() {
         <div className="mt-6">
           <iframe
             src="/kavya-portfolio-resume.pdf"  // Same path as above
-            width="80%"
+            width="60%"
             height="600px"
             className="rounded-lg border"
             title="kavya-portfolio-resume"
