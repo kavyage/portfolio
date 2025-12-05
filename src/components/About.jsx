@@ -1,4 +1,7 @@
 import React from "react";
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
 function About() {
   return (
@@ -15,7 +18,7 @@ function About() {
 
         <div className="mt-4 mb-6">
           <a
-            href="/Kavya-Resume.pdf"  // Place your PDF in the public folder
+            href="/Kavya-Resume.pdf"
             download="Kavya-Resume.pdf"
             className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition"
           >
@@ -23,14 +26,13 @@ function About() {
           </a>
         </div>
 
-        <div className="mt-6">
-          <iframe
-            src="/kavya-portfolio-resume.pdf"  // Same path as above
-            width="100%"
-            height="600px"
-            className="rounded-lg border"
-            title="Kavya Resume"
-          ></iframe>
+        <div className="mt-6 border rounded-lg">
+          <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.10.113/build/pdf.worker.min.js`}>
+            <Viewer
+              fileUrl="/kavya-portfolio-resume.pdf"
+              defaultScale={1.2}
+            />
+          </Worker>
         </div>
       </div>
     </div>
