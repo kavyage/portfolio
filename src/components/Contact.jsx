@@ -114,7 +114,7 @@ function Contact() {
           {/* Email & Phone Row */}
           <div className="flex justify-between items-center">
             {/* Email */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-right gap-2">
               <MdEmail className="text-green-600 text-2xl" />
               <a
                 href="mailto:kavyaitprofessional@gmail.com"
@@ -125,7 +125,7 @@ function Contact() {
             </div>
 
             {/* Phone */}
-            <div className="flex items-center gap-2">
+            <div className="flex items-left gap-2">
               <MdPhone className="text-green-600 text-2xl" />
               <a href="tel:+918899501208" className="text-gray-700 hover:underline">
                 +91 8899501208
