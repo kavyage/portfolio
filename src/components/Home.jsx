@@ -6,9 +6,6 @@ import { FaBlogger } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { TfiEmail } from "react-icons/tfi";
-
 
 
 import { ReactTyped } from "react-typed";
@@ -38,9 +35,7 @@ function Home() {
             <p className="text-sm md:text-md text-justify">
 Hello!, I’m G E Kavya — an SDET who blends logic with creativity.
 I build reliable, high-quality software through thoughtful testing, smart automation, and streamlined processes. With experience across UI & API testing, CI/CD/CT pipelines, and performance validation, I love turning complexity into clarity and ensuring every release is stable and user-ready. <br /><br />
-
 Outside the world of code, I’m a solo backpacker, a typewriter lover, and a writer who enjoys capturing stories from the road. I travel with purpose, often volunteering, teaching, or simply connecting with people who shape new perspectives. <br /><br />
-
 My work and journeys share one belief: Observe deeply. Solve thoughtfully. Improve continuously.            
             </p>
 
@@ -70,16 +65,6 @@ My work and journeys share one belief: Observe deeply. Solve thoughtfully. Impro
                   <li>
                     <a href="https://krazylazykavy.blogspot.com/" target="_blank">
                       <FaBlogger className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://wa.me/8899501208/" target="_blank">
-                           <FaWhatsapp className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                       <li>
-                    <a href="mailto:kavyaitprofessional@gmail.com/" target="_blank">
-                      <TfiEmail className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>

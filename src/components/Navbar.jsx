@@ -24,7 +24,7 @@ function Navbar() {
     },
     {
       id: 5,
-      text: "Contact",
+      text: "Collab",
     },
   ];
   return (

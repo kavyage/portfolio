@@ -3,10 +3,10 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import PortFolio from "./components/PortFolio";
-import Experiance from "./components/TechStack";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import Contact from "./components/Collab";
 import { Toaster } from "react-hot-toast";
+import TechStack from "./components/TechStack";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
         <Home />
         <About />
         <PortFolio />
-        <Experiance />
-        <Contact />
+        <TechStack />
+        <Collab />
         <Footer />
       </div>
       <Toaster />

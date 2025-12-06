@@ -1,25 +1,19 @@
 import React from "react";
-import java from "../../public/java.png";
-import python from "../../public/python.webp";
-import mongoDB from "../../public/mongodb.jpg";
-import express from "../../public/express.png";
-import reactjs from "../../public/reactjs.png";
-import nodejs from "../../public/node.png";
+
 
 function PortFolio() {
   const cardItem = [
     {
       id: 1,
 
-      name: "Web Automation Frameworks List",
+      name: "Web Automation Frameworks",
        description: "Java, Maven, Selenium, TestNG, Junit, Cucumber, SerenityBDD, ExtentReports, Allure Reports, Reporting,Test Data Management, Test Design, Capabilities, WebDriver-Manager,  Utilities,SampleCode Usage, Folder Structure,Wiki, Git Pipeline Integration, CICD Integration, Docker", 
       codeLink: "https://github.com/stars/kavyage/lists/web-automation",
     },
     {
       id: 2,
       
-      name: "Automated Tools List",
-   name: "Automated Tools List",
+      name: "Automated WorkFlows",
 description: `Testrail Integration, Jira Integration, Individual Test Run Execution Report, Overall Execution Report,
 Groovy - Java - Gradle | Windows - Linux - multi Envs | File Handler Executor - Custom Config - Jenkins |
 all build file formats - exe, msi, sh, jar, zip, rar, tgz, gz | acunetix`,
@@ -29,14 +23,14 @@ all build file formats - exe, msi, sh, jar, zip, rar, tgz, gz | acunetix`,
     {
       id: 3,
  
-      name: "API Automation Framework List",
+      name: "API Automation Frameworks",
       description: "Java, Gradle, SerenityBDD, Cucumber, Rest-Assured | utilities - Auth, DTO, payloads, config, excel, fileops, hooks, json, request & response handling, api utils",
       codeLink: "https://github.com/stars/kavyage/lists/api-automation",
     },
     {
       id: 4,
     
-      name: "Web Designings List",
+      name: "Web Designs",
       description: "Web Design - AI Tools - Figma - Canva  -Git - Vercel - Netlify - Steps to Build & Deploy -Portfolio -JavaScript - HTML - TypeScript ",
       codeLink: "https://github.com/stars/kavyage/lists/web-design",
     },
