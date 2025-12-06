@@ -126,7 +126,7 @@ function PortFolio() {
       description:
         "Built with Dialogflow to take orders and suggest items. Integrated with AI and NLP.",
  
-      codeLink: https://github.com/stars/kavyage/lists/web-design
+      codeLink: "https://github.com/stars/kavyage/lists/web-design",
     },
     {
       id: 5,
