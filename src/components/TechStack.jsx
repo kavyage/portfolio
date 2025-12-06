@@ -76,77 +76,149 @@
 
 
 
-
 import React from "react";
+import {
+  FaBug,
+  FaTasks,
+  FaFlask,
+  FaCloud,
+  FaCode,
+  FaGitAlt,
+  FaCogs,
+  FaDatabase,
+  FaTerminal,
+  FaTachometerAlt,
+  FaDesktop,
+  FaComments,
+  FaToolbox
+} from "react-icons/fa";
 
-// Images from public folder (use direct paths)
 const cardItem = [
   {
     id: 1,
-    logo: "/html.png",
-    name: "HTML",
+    icon: <FaTasks className="text-blue-600 text-2xl" />,
+    title: "Defect & Project Management",
+    items: ["JIRA", "Rally", "Confluence", "ServiceNow", "SharePoint", "Bugzilla"]
   },
   {
     id: 2,
-    logo: "/css.jpg",
-    name: "CSS",
+    icon: <FaBug className="text-red-600 text-2xl" />,
+    title: "Test Management",
+    items: ["TestRail", "ALM", "Excel"]
   },
   {
     id: 3,
-    logo: "/javascript.png",
-    name: "JavaScript",
+    icon: <FaCloud className="text-purple-600 text-2xl" />,
+    title: "CI/CD and Cloud",
+    items: ["Jenkins", "Nexus", "AWS (S3)", "Kibana", "CF", "Kubernetes"]
   },
- 
   {
     id: 4,
-    logo: "/python.webp",
-    name: "Python",
+    icon: <FaCode className="text-green-600 text-2xl" />,
+    title: "Programming, Automation & IDE",
+    items: ["Java Selenium", "Groovy Scripts", "Eclipse", "IntelliJ IDEA"]
   },
-  
-  
   {
     id: 5,
-    logo: "/java.png",
-    name: "Java",
+    icon: <FaGitAlt className="text-orange-600 text-2xl" />,
+    title: "Version Control",
+    items: ["Bitbucket", "Git", "SVN", "Maven"]
   },
   {
     id: 6,
-    logo: "/selemium.png",
-    name: "Oracle",
+    icon: <FaCogs className="text-gray-700 text-2xl" />,
+    title: "Frameworks",
+    items: ["Hybrid", "Cucumber BDD", "Serenity BDD", "JUnit", "TestNG"]
   },
-  
+  {
+    id: 7,
+    icon: <FaFlask className="text-pink-600 text-2xl" />,
+    title: "API",
+    items: ["Postman", "Internal API Tools", "RestAssured", "BDD Framework"]
+  },
+  {
+    id: 8,
+    icon: <FaDatabase className="text-yellow-600 text-2xl" />,
+    title: "DB Tools",
+    items: ["Amazon Redshift", "Hubble", "MSSQL", "PGAdmin", "SQL queries"]
+  },
+  {
+    id: 9,
+    icon: <FaTerminal className="text-black text-2xl" />,
+    title: "OS, Commands & FTP",
+    items: ["Windows", "Linux", "Unix", "Putty", "WinSCP", "WinMerge", "NFS/SMB"]
+  },
+  {
+    id: 10,
+    icon: <FaTachometerAlt className="text-red-500 text-2xl" />,
+    title: "Performance Tools",
+    items: ["JMeter"]
+  },
+  {
+    id: 11,
+    icon: <FaDesktop className="text-indigo-600 text-2xl" />,
+    title: "Workspaces",
+    items: ["VRA", "Citrix", "RDP"]
+  },
+  {
+    id: 12,
+    icon: <FaComments className="text-blue-500 text-2xl" />,
+    title: "Communication Channels",
+    items: ["MS Teams", "Amazon Chime", "Slack"]
+  },
+  {
+    id: 13,
+    icon: <FaToolbox className="text-teal-600 text-2xl" />,
+    title: "Amazon Internal Tools",
+    items: [
+      "Build tools",
+      "Device tools",
+      "Content tools",
+      "SIM TT",
+      "Kanban board",
+      "KBITS",
+      "KOTA",
+      "KDCM",
+      "KDCS",
+      "Kamino",
+      "Embu",
+      "Subs",
+      "Weblabs"
+    ]
+  }
 ];
 
 function TechStack() {
   return (
-    <div
-      name="TechStack"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
-    >
-      <div>
-        <h1 className="text-3xl font-bold mb-5">TechStack</h1>
-        <p className="text-gray-700 text-base">
-          I have over 2 years of hands-on TechStack working with these technologies across web development, data science, and teaching.
-        </p>
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
+      <h1 className="text-3xl font-bold mb-5">TechStack</h1>
+      <p className="text-gray-700 text-base">
+        I have over 2 years of hands-on experience across automation, CI/CD, cloud,
+        internal tools & enterprise platforms.
+      </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 my-8">
-          {cardItem.map(({ id, logo, name }) => (
-            <div
-              key={id}
-              className="flex flex-col items-center justify-center border-[2px] rounded-xl shadow-md p-4 hover:scale-105 duration-300"
-            >
-              <img
-                src={logo}
-                alt={name}
-                className="w-[80px] h-[80px] object-contain mb-3"
-              />
-              <div className="font-semibold text-lg text-center">{name}</div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
+        {cardItem.map(({ id, icon, title, items }) => (
+          <div
+            key={id}
+            className="border-[2px] rounded-xl shadow-md p-5 hover:scale-105 duration-300 bg-white"
+          >
+            <div className="flex items-center gap-3 mb-3">
+              {icon}
+              <h2 className="font-bold text-xl text-blue-700">{title}</h2>
             </div>
-          ))}
-        </div>
+
+            <ul className="list-disc pl-6 text-gray-700 space-y-1">
+              {items.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   );
 }
 
 export default TechStack;
+
