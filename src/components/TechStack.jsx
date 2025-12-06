@@ -90,19 +90,20 @@ import {
   FaTachometerAlt,
   FaDesktop,
   FaComments,
-  FaToolbox
+  FaToolbox,
+  FaClipboardCheck
 } from "react-icons/fa";
 
 const cardItem = [
   {
     id: 1,
-    icon: <FaTasks className="text-blue-600 text-2xl" />,
+    icon: <FaBug className="text-red-600 text-2xl" />, // Defect & Project Management
     title: "Defect & Project Management",
     items: ["JIRA", "Rally", "Confluence", "ServiceNow", "SharePoint", "Bugzilla"]
   },
   {
     id: 2,
-    icon: <FaBug className="text-red-600 text-2xl" />,
+    icon: <FaClipboardCheck className="text-teal-600 text-2xl" />, // Test Management new color
     title: "Test Management",
     items: ["TestRail", "ALM", "Excel"]
   },
@@ -208,11 +209,20 @@ function TechStack() {
               <h2 className="font-bold text-xl text-blue-700">{title}</h2>
             </div>
 
-            <ul className="list-disc pl-6 text-gray-700 space-y-1">
-              {items.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+            {/* Two-column layout only for Amazon Internal Tools */}
+            {title === "Amazon Internal Tools" ? (
+              <ul className="grid grid-cols-2 gap-x-4 list-disc pl-6 text-gray-700 space-y-1">
+                {items.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            ) : (
+              <ul className="list-disc pl-6 text-gray-700 space-y-1">
+                {items.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            )}
           </div>
         ))}
       </div>
@@ -221,4 +231,3 @@ function TechStack() {
 }
 
 export default TechStack;
-
