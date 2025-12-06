@@ -7,7 +7,7 @@ function PortFolio() {
       id: 1,
 
       name: "Web Automation Frameworks",
-       description: "Java, Maven, Selenium, TestNG, Junit, Cucumber, SerenityBDD, ExtentReports, Allure Reports, Reporting,Test Data Management, Test Design, Capabilities, WebDriver-Manager,  Utilities,SampleCode Usage, Folder Structure,Wiki, Git Pipeline Integration, CICD Integration, Docker", 
+       description: "Java, Maven, Selenium, TestNG, Junit, Gherkin, Cucumber, SerenityBDD, ExtentReports, Allure Reports, Reporting,Test Data Management, Test Design, Capabilities, WebDriver-Manager,  BatchFile, Utilities,SampleCode Usage, Folder Structure,Wiki, Git Pipeline Integration, CICD Integration, Docker", 
       codeLink: "https://github.com/stars/kavyage/lists/web-automation",
     },
     {
@@ -24,14 +24,14 @@ all build file formats - exe, msi, sh, jar, zip, rar, tgz, gz | acunetix`,
       id: 3,
  
       name: "API Automation Frameworks",
-      description: "Java, Gradle, SerenityBDD, Cucumber, Rest-Assured | utilities - Auth, DTO, payloads, config, excel, fileops, hooks, json, request & response handling, api utils",
+      description: "Java, Gradle, SerenityBDD, Gherkin, Cucumber, Rest-Assured | utilities - Auth, DTO, payloads, config, excel, fileops, hooks, json, request & response handling, api utils",
       codeLink: "https://github.com/stars/kavyage/lists/api-automation",
     },
     {
       id: 4,
     
       name: "Web Designs",
-      description: "Web Design - AI Tools - Figma - Canva  -Git - Vercel - Netlify - Steps to Build & Deploy -Portfolio -JavaScript - HTML - TypeScript ",
+      description: "Web Design - AI Tools - Figma - Canva  -Git - Vercel - Netlify - Steps to Build & Deploy -Portfolio -JavaScript - HTML - CSS - TypeScript ",
       codeLink: "https://github.com/stars/kavyage/lists/web-design",
     },
     {

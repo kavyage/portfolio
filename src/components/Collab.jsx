@@ -1,5 +1,7 @@
 import React from "react";
 import { MdWork, MdSchool, MdTravelExplore, MdEdit, MdKeyboard, MdEmail, MdPhone } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
+import { TfiEmail } from "react-icons/tfi";
 
 export default function Collab() {
   return (
@@ -76,6 +78,18 @@ export default function Collab() {
                 Email: example@email.com <br />
                 Phone: +123 456 7890
               </p>
+              <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
+              <div className="  space-y-2">
+                <ul className="flex space-x-5">
+                  <li>
+                    <a href="https://wa.me/1234567890" target="_blank">
+                      <FaWhatsapp  className="text-2xl cursor-pointer" />
+                  </a></li>
+                   <li>
+                    <a href="mailto:example@email.com" target="_blank">
+                      <TfiEmail  className="text-2xl cursor-pointer" />
+                  </a></li>
+                  </ul></div></div>
             </div>
           </div>
         </div>
