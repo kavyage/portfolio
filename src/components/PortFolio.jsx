@@ -12,35 +12,36 @@ function PortFolio() {
       id: 1,
 
       name: "Web Automation Frameworks List",
-   
+       description: "Wiki, Selenium, Java, TestNG, Cucumber, Git Pipeline Integration, ExtentReports, Allure Reports, Maven, Reporting, Test Data Management, Test Design, Capabilities, WebDriver-Manager, Utilities, CICD Integration, SampleCode Usage, Folder Structure - Docker - SerenityBDD",
       codeLink: "https://github.com/stars/kavyage/lists/web-automation",
     },
     {
       id: 2,
       
       name: "Automated Tools List",
-     
+       description: "Java, Testrail Integration, Jira Integraiton, Individual Test run Execution Report, Overall Execution Report,
+Groovy - Java - Gradle | Windows - Linux - multi Envs | File Handler Executor - Custom Config - Jenkins | all build file formats - .exe, .msi, .sh, .jar, .zip, .rar, .tgz, .gz | acunetix |",
       codeLink: "https://github.com/stars/kavyage/lists/automated-tools",
     },
     {
       id: 3,
  
       name: "API Automation Framework List",
-    
+      description: "Java, Gradle, Serenitybdd, Cucumber, Rest-Assured | utilities - Auth, DTO, payloads, config, excel, fileops, hooks, json, request & response handling, api utils",
       codeLink: "https://github.com/stars/kavyage/lists/api-automation",
     },
     {
       id: 4,
     
       name: "Web Designings List",
-    
+      description: "webdesign-ai-figma-canva-git-vercel-netlify-steps to build & deploy-portfolio-JavaScript-HTML-TypeScript ",
       codeLink: "https://github.com/stars/kavyage/lists/web-design",
     },
     {
       id: 5,
      
       name: "Interview Notes",
-     
+       description: "SDET-QA-Automation-Software_Testing",
       codeLink: "https://github.com/stars/kavyage/lists/interview",
     },
     
