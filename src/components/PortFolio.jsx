@@ -103,47 +103,47 @@ function PortFolio() {
     },
     {
       id: 2,
-      logo: nodejs,
+      
       name: "E-Commerce Shop",
       description:
         "A responsive shopping platform with dynamic cart and product browsing using Bootstrap and JS.",
-      videoLink: "#",
+   
       codeLink: "https://github.com/imrandev01/ecommerce-shop",
     },
     {
       id: 3,
-      logo: python,
+ 
       name: "House Price Prediction",
       description:
         "ML model to predict Bangalore house prices using Python, Flask, Pandas, and Scikit-learn.",
-      videoLink: "#",
+
       codeLink: "https://github.com/imrandev01/house-price-prediction",
     },
     {
       id: 4,
-      logo: express,
+    
       name: "Coffee Shop Chatbot",
       description:
         "Built with Dialogflow to take orders and suggest items. Integrated with AI and NLP.",
-      videoLink: "#",
+ 
       codeLink: "#",
     },
     {
       id: 5,
-      logo: mongoDB,
+     
       name: "Face Detection & Recognition",
       description:
         "Used Python and OpenCV to build a face recognition system for smart authentication.",
-      videoLink: "#",
+   
       codeLink: "#",
     },
     {
       id: 6,
-      logo: java,
+
       name: "Teaching & Training",
       description:
         "2+ years of experience teaching computer fundamentals and coding to students.",
-      videoLink: "#",
+  
       codeLink: "#",
     },
   ];
@@ -157,26 +157,18 @@ function PortFolio() {
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
         <span className="underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-5">
-          {cardItem.map(({ id, logo, name, description, videoLink, codeLink }) => (
+          {cardItem.map(({ id, name, description, codeLink }) => (
             <div
               className="md:w-[300px] md:h-auto border-[2px] rounded-lg shadow-lg p-4 cursor-pointer hover:scale-105 duration-300"
               key={id}
             >
-              <img
-                src={logo}
-                className="w-[100px] h-[100px] p-2 rounded-full border-[2px] mx-auto"
-                alt={name}
-              />
+              
               <div className="text-center mt-4">
                 <div className="font-bold text-xl mb-2">{name}</div>
                 <p className="text-gray-700 text-sm">{description}</p>
               </div>
               <div className="flex justify-center gap-4 mt-4">
-                <a href={videoLink} target="_blank" rel="noopener noreferrer">
-                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
-                    Video
-                  </button>
-                </a>
+                
                 <a href={codeLink} target="_blank" rel="noopener noreferrer">
                   <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
                     Source Code
