@@ -12,7 +12,14 @@ function PortFolio() {
       id: 1,
 
       name: "Web Automation Frameworks List",
-       description: "Wiki, Selenium, Java, TestNG, Cucumber, Git Pipeline Integration, ExtentReports, Allure Reports, Maven, Reporting, Test Data Management, Test Design, Capabilities, WebDriver-Manager, Utilities, CICD Integration, SampleCode Usage, Folder Structure - Docker - SerenityBDD",
+       description: "Java, Maven, <br /> \
+Selenium, TestNG, Junit, Cucumber, SerenityBDD, <br /> \
+ExtentReports, Allure Reports, Reporting, <br /> \
+Test Data Management, Test Design, <br /> \
+Capabilities, WebDriver-Manager, <br /> \
+Utilities, SampleCode Usage, Folder Structure, <br /> \
+Wiki, Git Pipeline Integration, CICD Integration, Docker",
+
       codeLink: "https://github.com/stars/kavyage/lists/web-automation",
     },
     {
