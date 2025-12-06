@@ -20,7 +20,7 @@ function PortFolio() {
       
       name: "Automated Tools List",
        description: "Java, Testrail Integration, Jira Integraiton, Individual Test run Execution Report, Overall Execution Report,
-Groovy - Java - Gradle | Windows - Linux - multi Envs | File Handler Executor - Custom Config - Jenkins | all build file formats - .exe, .msi, .sh, .jar, .zip, .rar, .tgz, .gz | acunetix |",
+Groovy - Java - Gradle | Windows - Linux - multi Envs | File Handler Executor - Custom Config - Jenkins | all build file formats - exe, msi, sh, jar, zip, rar, tgz, gz | acunetix |",
       codeLink: "https://github.com/stars/kavyage/lists/automated-tools",
     },
     {
