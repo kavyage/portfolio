@@ -122,13 +122,15 @@ function Contact() {
                 kavyaitprofessional@gmail.com
               </a>
             </div>
-
+          </div>
+          <div className="flex justify-between items-center">
             {/* Phone */}
             <div className="flex items-center gap-2">
               <MdPhone className="text-green-600 text-2xl" />
               <a href="tel:+918899501208" className="text-gray-700 hover:underline">
                 +91 8899501208
               </a>
+            </div>
             </div>
           </div>
         </div>
