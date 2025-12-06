@@ -12,15 +12,7 @@ function PortFolio() {
       id: 1,
 
       name: "Web Automation Frameworks List",
-       description: "Java, Maven, <br /> 
-Selenium, TestNG, Junit, Cucumber, SerenityBDD, <br />
-ExtentReports, Allure Reports, Reporting, <br />
-Test Data Management, Test Design, <br />
-Capabilities, WebDriver-Manager, <br />
-Utilities, SampleCode Usage, Folder Structure, <br />
-Wiki, Git Pipeline Integration, CICD Integration, Docker",
-
-
+       description: "Java, Maven, Selenium, TestNG, Junit, Cucumber, SerenityBDD, ExtentReports, Allure Reports, Reporting,Test Data Management, Test Design, Capabilities, WebDriver-Manager,  Utilities,SampleCode Usage, Folder Structure,Wiki, Git Pipeline Integration, CICD Integration, Docker", 
       codeLink: "https://github.com/stars/kavyage/lists/web-automation",
     },
     {
@@ -28,8 +20,8 @@ Wiki, Git Pipeline Integration, CICD Integration, Docker",
       
       name: "Automated Tools List",
    name: "Automated Tools List",
-description: `Java, Testrail Integration, Jira Integration, Individual Test Run Execution Report, Overall Execution Report,
-Groovy - Gradle | Windows - Linux - multi Envs | File Handler Executor - Custom Config - Jenkins |
+description: `Testrail Integration, Jira Integration, Individual Test Run Execution Report, Overall Execution Report,
+Groovy - Java - Gradle | Windows - Linux - multi Envs | File Handler Executor - Custom Config - Jenkins |
 all build file formats - exe, msi, sh, jar, zip, rar, tgz, gz | acunetix`,
 
       codeLink: "https://github.com/stars/kavyage/lists/automated-tools",
@@ -38,21 +30,21 @@ all build file formats - exe, msi, sh, jar, zip, rar, tgz, gz | acunetix`,
       id: 3,
  
       name: "API Automation Framework List",
-      description: "Java, Gradle, Serenitybdd, Cucumber, Rest-Assured | utilities - Auth, DTO, payloads, config, excel, fileops, hooks, json, request & response handling, api utils",
+      description: "Java, Gradle, SerenityBDD, Cucumber, Rest-Assured | utilities - Auth, DTO, payloads, config, excel, fileops, hooks, json, request & response handling, api utils",
       codeLink: "https://github.com/stars/kavyage/lists/api-automation",
     },
     {
       id: 4,
     
       name: "Web Designings List",
-      description: "webdesign-ai-figma-canva-git-vercel-netlify-steps to build & deploy-portfolio-JavaScript-HTML-TypeScript ",
+      description: "Web Design - AI Tools - Figma - Canva  -Git - Vercel - Netlify - Steps to Build & Deploy -Portfolio -JavaScript - HTML - TypeScript ",
       codeLink: "https://github.com/stars/kavyage/lists/web-design",
     },
     {
       id: 5,
      
       name: "Interview Notes",
-       description: "SDET-QA-Automation-Software_Testing",
+       description: "SDET- QA - Automation - Software Testing - Manual Testing",
       codeLink: "https://github.com/stars/kavyage/lists/interview",
     },
     
