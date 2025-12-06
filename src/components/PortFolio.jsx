@@ -94,11 +94,11 @@ function PortFolio() {
   const cardItem = [
     {
       id: 1,
-      logo: reactjs,
-      name: "VGU Trip Registration Form",
+
+      name: "list1",
       description:
-        "A web app to streamline student trip registrations using HTML, CSS, JS, PHP, and MySQL.",
-      videoLink: "#", // Replace with actual video link
+        "desc",
+   
       codeLink: "https://github.com/imrandev01/vgu-trip-form",
     },
     {
