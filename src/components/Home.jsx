@@ -73,12 +73,12 @@ My work and journeys share one belief: Observe deeply. Solve thoughtfully. Impro
                     </a>
                   </li>
                   <li>
-                    <a href="https://wa.me/1234567890/" target="_blank">
+                    <a href="https://wa.me/8899501208/" target="_blank">
                            <FaWhatsapp className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                        <li>
-                    <a href="https://mailto:kavyaitprofessional@gmail.com/" target="_blank">
+                    <a href="mailto:kavyaitprofessional@gmail.com/" target="_blank">
                       <TfiEmail className="text-2xl cursor-pointer" />
                     </a>
                   </li>
