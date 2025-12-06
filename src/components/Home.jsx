@@ -6,6 +6,8 @@ import { FaBlogger } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaWhatsapp } from "react-cions/fa";
+import { TfiEmail } from "react-icons/tfi";
 
 
 
@@ -26,7 +28,7 @@ function Home() {
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
-                strings={["SDET", "QA", "Software Tester", "Manual Tester", "Automation Developer","Programmer", "Coder", "Writer", "TypeWriter", "Educator", "Tutor", "Trainer", "Traveler"]}
+                strings={["SDET", "QA", "Software Tester", "Manual Tester", "Automation Developer","Programmer", "Coder", "Writer", "TypeWriter", "Educator", "Tutor", "Trainer", "Traveler", "Travel Advisor"]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
@@ -68,6 +70,16 @@ My work and journeys share one belief: Observe deeply. Solve thoughtfully. Impro
                   <li>
                     <a href="https://krazylazykavy.blogspot.com/" target="_blank">
                       <FaBlogger className="text-2xl cursor-pointer" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://wa.me/1234567890/" target="_blank">
+                           <FaWhatsapp className="text-2xl cursor-pointer" />
+                    </a>
+                  </li>
+                       <li>
+                    <a href="https://mailto:kavyaitprofessional@gmail.com/" target="_blank">
+                      <TfiEmail className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
