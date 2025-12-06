@@ -57,7 +57,7 @@ all build file formats - exe, msi, sh, jar, zip, rar, tgz, gz | acunetix`,
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
-        <span className="underline font-semibold">Featured Projects</span>
+        <span className="underline font-semibold">GitHub Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-5">
           {cardItem.map(({ id, name, description, codeLink }) => (
             <div
