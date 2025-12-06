@@ -6,7 +6,7 @@ import { FaBlogger } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaWhatsapp } from "react-cions/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 
 
