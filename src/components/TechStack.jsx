@@ -193,11 +193,7 @@ function TechStack() {
   return (
     <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16">
       <h1 className="text-3xl font-bold mb-5">TechStack</h1>
-      <p className="text-gray-700 text-base">
-        I have over 2 years of hands-on experience across automation, CI/CD, cloud,
-        internal tools & enterprise platforms.
-      </p>
-
+     
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
         {cardItem.map(({ id, icon, title, items }) => (
           <div
